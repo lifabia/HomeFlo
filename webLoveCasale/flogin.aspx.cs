@@ -13,5 +13,10 @@ namespace webLoveCasale
         {
 
         }
+
+        protected void pnLogin_Authenticate(object sender, AuthenticateEventArgs e)
+        {
+
+        }
     }
 }

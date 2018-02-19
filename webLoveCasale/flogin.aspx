@@ -10,6 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Login ID="pnLogin" runat="server" OnAuthenticate="pnLogin_Authenticate">
+            </asp:Login>
         </div>
     </form>
 </body>
