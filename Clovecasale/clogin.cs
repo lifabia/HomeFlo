@@ -1,15 +1,33 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace Clovecasale
 {
-    public class clogin
+   
+    public static class clogin
     {
-        private string utente;
-        private string login;
+        public string utente { get; set; }
+        public string login { get; set; }
         private string pwd;
+        private List<keyValue> _preferiti;
+        public List<keyValue> Preferiti
+        {
+            get { return _preferiti; }
+            set { _preferiti = value; }
+        }
 
+    }
+    public class keyValue : IEnumerable 
+    {
+        public string chiave { get; set; }
+        public string valore { get; set; }
+
+        public IEnumerator GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
