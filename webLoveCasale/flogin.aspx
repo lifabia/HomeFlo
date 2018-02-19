@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="smistamento.aspx.cs" Inherits="webLoveCasale.smistamento" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="flogin.aspx.cs" Inherits="webLoveCasale.flogin" %>
 
 <!DOCTYPE html>
 

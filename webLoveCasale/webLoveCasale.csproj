@@ -57,19 +57,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="jcasale.js" />
-    <Content Include="smistamento.aspx" />
+    <Content Include="flogin.aspx" />
     <Content Include="stylecasale.css" />
     <Content Include="Web.config" />
     <Content Include="wscasaleasmx.asmx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="smistamento.aspx.cs">
-      <DependentUpon>smistamento.aspx</DependentUpon>
+    <Compile Include="flogin.aspx.cs">
+      <DependentUpon>flogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="smistamento.aspx.designer.cs">
-      <DependentUpon>smistamento.aspx</DependentUpon>
+    <Compile Include="flogin.aspx.designer.cs">
+      <DependentUpon>flogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="wscasaleasmx.asmx.cs">
       <DependentUpon>wscasaleasmx.asmx</DependentUpon>
